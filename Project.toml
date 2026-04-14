@@ -1,13 +1,15 @@
 name = "StippleMakie"
 uuid = "ca87011c-5f75-4091-8e42-d20fc4be912c"
-authors = ["Helmut Hänsel <helmut.haensel@gmx.de>"]
 version = "0.1.4"
+authors = ["Helmut Hänsel <helmut.haensel@gmx.de>"]
 
 [deps]
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 Stipple = "4acbeb90-81a0-11ea-1966-bdaff8155998"
 WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 
 [compat]
+Makie = "0.24.9"
 Stipple = "0.28, 0.30, 0.31"
 WGLMakie = "0.10 - 0.13"
 julia = "1.6"
